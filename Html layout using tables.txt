@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table Layout</title>
+</head>
+
+
+<body style="margin:0px;">
+
+    <table cellpadding="10px;" cellspacing="8" style="font:12px verdana, sans-serif; width:100%; margin:0 auto;">
+
+        <tr>
+            <td colspan="2" style="background-color:deepskyblue; width: 50%;">
+                <marquee>
+                    <h1 style="font-size:18px; color: deeppink;margin:10px ;">ORA</h1>
+                </marquee>
+            </td>
+        </tr>
+
+        <tr style="height:170px;">
+            <td style="background-color:goldenrod; width:20%; vertical-align:top;">
+                <ul style="list-style:none; padding:0px; margin:0px;">
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Home</a></li>
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">About</a></li>
+                    <li style="margin-bottom:5px;"><a href="#" style="color:#3d677e;">Contact</a></li>
+                </ul>
+            </td>
+
+            <td style="background-color:chocolate; width:60%; vertical-align:middle;">
+                <h2 style="font-size:16px; margin:0px;">Welcome to our site</h2>
+                <p>Here you...Here you...Here you...Here you...Here you...
+                    Here you...Here you...Here you...Here you...</p>
+                Here you...Here you...Here you...
+            </td>
+
+        </tr>
+
+
+        <tr>
+            <td colspan="2" style="background-color:aqua;">
+                <p style="text-align:center; margin:5px;">copyright &copy; ora.com</p>
+            </td>
+        </tr>
+
+    </table>
+
+</body></html>                            
